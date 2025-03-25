@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: white;
+}
+.container{
+    background-image: url("car.jpg");
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.second a:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+}
+ .cha{
+    font-weight: bolder;
+    color: aliceblue;
+   padding-bottom: 10px;
+    padding-right: 200px;
+    font-size: x-large;
+}
+ 
+   
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 100;
+    font-style: inherit;
+}
+nav{
+    padding:0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    
+}
+nav .second a:not(:last-child){
+    margin-right: 27px;
+}
+    
+.sub-one > h3{
+    text-align: center;
+    padding-top: 70px;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.sub-one > p{
+    text-align: center;
+    color: aliceblue;
+    font-style:calc(bolder);
+    font-size:18px;
+}
+.sub-one > button{
+    margin: 0;
+    margin-left: 45%;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+    background-color: aqua;
+
+}
+.demoo{
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-evenly;
+    gap: 30px; 
+}
+.demo-1{
+    width: 300px;
+    height: 250px;
+    text-align: center;
+     background-color: white;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     border: 1px solid #eee;
+     transition: transform 0.3s ease;
+     
+
+}
+.demo-2{
+    width: 300px;
+    text-align: center;
+     background-color: white;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     border: 1px solid #eee;
+     transition: transform 0.3s ease;
+
+}
+.demo-3{
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eee;
+    transition: transform 0.3s ease;   
+}
+.underline{
+    width: 20px;
+    height: 3px;
+    background-color: blue;
+     margin: 0 auto;
+     margin-top: 20%;
+}
+.demo-1:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+.demo-2:hover{
+    background-color:blueviolet;
+    ttransform: scale(1.1);
+}
+.demo-3:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+
+
+
+.cars{
+    padding-top: 7%;
+    width: 100%;
+    height: 900px;
+    border: 1 px solid white;
+    margin-top: 10%;
+    background-color: azure;
+    
+}
+
+.cars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.car2 {
+    flex: 1;
+    padding: 20px;
+    text-align: left; /* Align text to the right */
+}
+
+.car2 h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+.car2 p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.car1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car1 img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+.car1 > img:hover{
+    transform: translateY(-5px);
+    transform: scale(1.1);
+}
+
+.car {
+    flex: 1;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.car h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.car p {
+    font-size: 18px;
+    color: #333;
+}
+
+.car-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.car-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+    transform: scale(1.1);
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.car-info {
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #555;
+}
+
+.car-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #000;
+}
+
+.car-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 8px;
+}
+
+.car-desc {
+    font-size: 14px;
+    color: #666;
+}
+.servicess{
+    text-align: center;
+    gap: 30px; 
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;     
+}
+.se{
+    width: 300px;
+    height: 250px;
+    text-align: center;
+     background-color: white;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     border: 1px solid #eee;
+     transition: transform 0.3s ease;
+     margin-top: 10%;
+     margin-right: 5%;
+     
+}
+
+
+.underline{
+    width: 20px;
+    height: 3px;
+    background-color: blue;
+     margin: 0 auto;
+     margin-top: 12%;
+}
+.se:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+.di > h1{
+    text-align: center;
+    padding-top: 15%;
+}
+.se > img{
+    border-radius: 50%; /* Makes it round */
+    object-fit: cover; /* Ensures the image covers the circle */
+    border: 3px solid #000; 
+}
+
+/* Footer Styling */
+#footer {
+    background-color: #1d2242; /* Dark Blue */
+    color: white;
+    padding: 50px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #bbb;
+}
+
+/* Brands Section - Two Columns */
+.brands {
+    display: flex;
+    gap: 20px;
+}
+
+.brands ul {
+    flex: 1;
+}
+
+/* Newsletter Section */
+.newsletter {
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    max-width: 300px;
+}
+
+.newsletter input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+.newsletter button {
+    background: #4a4ebd;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.newsletter button:hover {
+    background: #6a6edd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .brands {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter {
+        justify-content: center;
+    }
+}
+
